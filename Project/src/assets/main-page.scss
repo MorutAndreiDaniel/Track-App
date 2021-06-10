@@ -1,0 +1,28 @@
+/*Main Container*/
+.track-main-page__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+  h3 {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 75%;
+    text-align: center;
+  }
+}

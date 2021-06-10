@@ -1,0 +1,21 @@
+.track-info__panel {
+  margin: 1rem 0.2rem;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #48cae4;
+  border-radius: 5px;
+
+  h5 {
+    font-weight: 600;
+  }
+
+  &--buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,27 @@
+.track-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &__container {
+    width: 100%;
+    margin-bottom: 1em;
+    label {
+      margin-bottom: 0px;
+    }
+    input {
+      border-radius: 5px;
+
+      &:hover {
+        border-color: #0a0a0a;
+      }
+    }
+  }
+  textarea {
+    &:hover {
+      border-radius: 5px;
+      border-color: #0a0a0a;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "main-page";
+@import "buttons";
+@import "modal";
+@import "info-panel";
+@import "form";
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
