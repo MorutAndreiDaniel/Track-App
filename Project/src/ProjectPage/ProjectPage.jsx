@@ -15,7 +15,6 @@ const ProjectPage = () => {
         projectNameDesc={projectNameDesc}
         key={projectNameId}
       />
-      <h2>test</h2>
     </div>
   );
 };
